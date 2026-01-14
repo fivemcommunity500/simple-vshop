@@ -9,9 +9,9 @@ A high-performance, professional, and neon-styled vehicle dealership for **FiveM
 - 🖥️ Neon Aesthetic: High-visibility UI with glow effects, displaying real-time vehicle stats (Speed, Acceleration, Braking).
 - 🎥 Cinematic Orbit Camera: Smooth 360° camera rotation around the vehicle while browsing.
 - 🏎️ Test Drive System: Fully configurable timed test drives at custom locations.
-- 📍 **Smart Delivery: After purchase, players are automatically spawned inside their new vehicle at the exit point.
-- ⚙️ **Optimized Logic: Running at **0.00ms** on idle. Built-in traffic and NPC clearing for the area.
-- 🛠️ **Modern Config:* Clean structure using `vector3` coordinates and independent headings.
+- 📍 Smart Delivery: After purchase, players are automatically spawned inside their new vehicle at the exit point.
+- ⚙️ Optimized Logic: Running at **0.00ms** on idle. Built-in traffic and NPC clearing for the area.
+- 🛠️ Modern Config: Clean structure using `vector3` coordinates and independent headings.
 
 ---
 
@@ -30,7 +30,7 @@ A high-performance, professional, and neon-styled vehicle dealership for **FiveM
 1. Download the repository / Descarga el repositorio.
 2. Rename the folder to `simple-vshop`.
 3. Database: Ensure you have the standard `vehicles` and `vehicle_categories` tables.
-4. **Configuration: Open `config.lua` and set your `MarkerPos`, `ShopInside`, and `ShopOutside` coordinates using the new 3-coordinate format.
+4. Configuration: Open `config.lua` and set your `MarkerPos`, `ShopInside`, and `ShopOutside` coordinates using the new 3-coordinate format.
 5. Add `ensure simple-vshop` to your `server.cfg`.
 
 ---
