@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Orbitron', sans-serif;
+    user-select: none;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle at left, rgba(0, 255, 255, 0.05) 0%, transparent 50%);
+}
+
+.sidebar {
+    width: 350px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.92);
+    border-right: 2px solid #00ffff;
+    box-shadow: 10px 0 25px rgba(0, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.header h1 span {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+/* Contenedor de lista con scroll neón */
+#vehicle-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+#vehicle-list::-webkit-scrollbar {
+    width: 4px;
+}
+
+#vehicle-list::-webkit-scrollbar-thumb {
+    background: #00ffff;
+    box-shadow: 0 0 5px #00ffff;
+}
+
+/* Títulos de categorías */
+.category-title {
+    color: #00ffff;
+    background: rgba(0, 255, 255, 0.1);
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+    border-left: 4px solid #00ffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Items de vehículos */
+.veh-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 8px 0;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.veh-item:hover {
+    background: rgba(0, 255, 255, 0.05);
+    border-color: rgba(0, 255, 255, 0.3);
+}
+
+.veh-item.active {
+    background: rgba(0, 255, 255, 0.15);
+    border-color: #00ffff;
+    box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.veh-item .price {
+    color: #39ff14;
+    text-shadow: 0 0 5px rgba(57, 255, 20, 0.5);
+    font-size: 13px;
+}
+
+/* Botones */
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-test {
+    background: transparent;
+    border: 1px solid #00ffff;
+    color: #00ffff;
+}
+
+.btn-test:hover {
+    background: #00ffff;
+    color: black;
+}
+
+.btn-buy {
+    background: #00ffff;
+    color: black;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+.btn-buy:hover {
+    background: #39ff14;
+    box-shadow: 0 0 15px #39ff14;
+}
+
+.btn-close {
+    background: #ff4444;
+    color: white;
+    margin-top: 10px;
+    font-size: 11px;
+}
