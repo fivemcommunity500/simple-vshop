@@ -1,23 +1,29 @@
-ESX!! 🏎️ simple-vshop | Neon Dealership Experience
+# 🏎️ Simple VShop | Neon Dealership Experience
+
+![GitHub License](https://img.shields.io/badge/license-Personal_Use-blueviolet)
+![Platform](https://img.shields.io/badge/framework-ESX-blue)
+![Optimized](https://img.shields.io/badge/optimized-0.00ms-brightgreen)
+
+Un concesionario de vehículos de alto rendimiento, profesional y con estilo neón para **FiveM (ESX)**. Diseñado para ofrecer una experiencia de compra cinematográfica con una NUI moderna y optimización extrema.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2e7cf9da-309f-4764-9a79-ba62a06dcdfa" alt="SIMPLEHUD" width="1000">
 </p>
-A high-performance, professional, and neon-styled vehicle dealership for **FiveM (ESX)**. Designed to provide a cinematic car-buying experience with a modern NUI and high performance.
 
 ---
 
-🚀 Features | Características
+## ✨ Features | Características
 
-- 🖥️ Neon Aesthetic: High-visibility UI with glow effects, displaying real-time vehicle stats (Speed, Acceleration, Braking).
-- 🎥 Cinematic Orbit Camera: Smooth 360° camera rotation around the vehicle while browsing.
-- 🏎️ Test Drive System: Fully configurable timed test drives at custom locations.
-- 📍 Smart Delivery: After purchase, players are automatically spawned inside their new vehicle at the exit point.
-- ⚙️ Optimized Logic: Running at **0.00ms** on idle. Built-in traffic and NPC clearing for the area.
-- 🛠️ Modern Config: Clean structure using `vector3` coordinates and independent headings.
+* 🖥️ **Neon Aesthetic:** Interfaz de alta visibilidad con efectos de brillo y estadísticas en tiempo real (Velocidad, Aceleración, Frenado).
+* 🎥 **Cinematic Orbit Camera:** Rotación suave de cámara 360° alrededor del vehículo mientras navegas por el catálogo.
+* 🏎️ **Test Drive System:** Sistema de prueba de conducción temporizado totalmente configurable en ubicaciones personalizadas.
+* 📍 **Smart Delivery:** Tras la compra, el jugador aparece automáticamente dentro de su nuevo vehículo en el punto de salida.
+* ⚙️ **Optimized Logic:** Consumo de **0.00ms** en reposo. Sistema integrado de limpieza de tráfico y NPCs en la zona.
+* 🛠️ **Modern Config:** Estructura limpia utilizando coordenadas `vector3` y headings independientes.
 
 ---
 
- ⌨️ Controls | Controles
+## ⌨️ Controls | Controles
 
 | Key / Tecla | Action | Acción |
 | :--- | :--- | :--- |
@@ -27,35 +33,39 @@ A high-performance, professional, and neon-styled vehicle dealership for **FiveM
 
 ---
 
-### 🛠️ Installation | Instalación
+## 🛠️ Installation | Instalación
 
-1. Download the repository / Descarga el repositorio.
-2. Rename the folder to `simple-vshop`.
-3. Database: Ensure you have the standard `vehicles` and `vehicle_categories` tables.
-4. Configuration: Open `config.lua` and set your `MarkerPos`, `ShopInside`, and `ShopOutside` coordinates using the new 3-coordinate format.
-5. Add `ensure simple-vshop` to your `server.cfg`.
-
----
-
- 📂 Structure | Estructura
-
-- client/main.lua: Cinematic camera, showroom logic, and spawning.
-- server/main.lua: SQL database sync and purchase validation.
-- config.lua: 3-Vector coords & Dealer settings.
-- html/: Neon NUI (HTML/CSS/JS).
+1. **Download:** Descarga el repositorio y descomprímelo.
+2. **Rename:** Cambia el nombre de la carpeta a `simple-vshop`.
+3. **Database:** Asegúrate de tener las tablas estándar `vehicles` y `vehicle_categories`.
+4. **Configure:** Abre `config.lua` y ajusta `MarkerPos`, `ShopInside`, y `ShopOutside`.
+5. **Start:** Añade `ensure simple-vshop` a tu archivo `server.cfg`.
 
 ---
 
-### 📜 License & Terms | Licencia y Términos
+## 📂 Structure | Estructura
 
-English:
-- 🚫 Do not re-upload: This script is licensed. Share the link to this official repository.
-- 🔐 Personal Use: Free to use and edit for your own server.
-
-Español:
-- 🚫 No resubir: Este script está registrado. Comparte siempre el link a este repositorio oficial.
-- 🔐 Uso Personal: Eres libre de usarlo y editarlo para tu propio servidor.
+| File / Folder | Description | Descripción |
+| :--- | :--- | :--- |
+| `client/main.lua` | Cinematic camera & showroom logic | Cámara cinematográfica y lógica de exposición |
+| `server/main.lua` | SQL sync & purchase validation | Sincronización SQL y validación de compra |
+| `config.lua` | 3-Vector coords & Dealer settings | Coordenadas Vector3 y ajustes generales |
+| `html/` | Neon NUI (HTML/CSS/JS) | Interfaz NUI y diseño visual |
 
 ---
 
-📢 Discord: https://discord.gg/2W9PMsYWTZ
+## 📜 License & Terms | Licencia y Términos
+
+| Condition | English | Español |
+| :--- | :--- | :--- |
+| 🚫 **Re-upload** | Do not re-upload: This script is licensed. | No resubir: Script bajo licencia y registrado. |
+| 🔗 **Share** | Share the link to this official repository. | Comparte siempre el link a este repositorio. |
+| 🔐 **Personal Use** | Free to use and edit for your own server. | Libre de usar y editar para tu servidor. |
+
+---
+
+## 📢 Support | Soporte
+
+¿Buscas actualizaciones o nuevos scripts? ¡Únete a nuestra comunidad!
+
+[![Discord Shield](https://img.shields.io/badge/Discord-Join%20Us-7289da?style=for-the-badge&logo=discord)](https://discord.gg/2W9PMsYWTZ)
